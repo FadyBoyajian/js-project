@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+nav{
+    width: 100vw;
+    height: 8vh;
+    background-color: transparent;
+    position: fixed;
+    z-index: 999;
+    transition: 1s;
+    
+}
+.nav-scroll{
+    width: 98vw;
+    height: 9vh;
+    background-color: rgba(122, 122, 122, 0.681);
+    position: absolute;
+    position: fixed;
+    justify-content: space-around;
+}
+.side-nav{
+    width: 60%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 20px;
+    float: right;
+    transition: 1s;
+}
+.side-nav img{
+    width: 35px;
+    padding-top: 8px;
+    transition: 0.5s;
+}
+.side-nav img:hover{
+width: 45px;
+}
+.logo img{
+    width: 60px;
+    float: left;
+    padding-top: 8px
+
+}
+
+
+.first-sect{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.small-imgs img{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    border: 1px,solid,gray;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.big-img img{
+    width: 800px;
+    border: 3px,solid,gray;
+    border-radius: 20px;
+}
+.sec-sect{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow-x: hidden;
+
+}
+.sec-sect img{
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    
+}
+.contents{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.contents h1{
+    color: rgb(252, 220, 178);
+    font-weight: 700;
+    font-size: 70px;
+    text-shadow: 10mm black;
+}
+.contents p{
+    color: white;
+    font-size: 20px;
+    padding: 20px 0px;
+    
+ }
+.contents a{
+    text-decoration: none;
+    color: rgb(135, 3, 3);
+    padding: 30px;
+    font-size: larger;
+}
+.zorar{
+    width: 50px;
+    height: 50px;
+    z-index: 999;
+    position: fixed;
+    right: 40px;
+    bottom: 10px;
+    
+}
+.zorar a{
+    text-decoration: none;
+    color: gray;
+    border: 2px double black;
+    padding: 10px 20px;
+    border-radius: 40px;
+}
